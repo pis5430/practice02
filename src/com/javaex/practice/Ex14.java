@@ -10,7 +10,7 @@ public class Ex14 {
 		
 		System.out.println("수익을 입력해 주세요");
 		
-		System.out.print("수익: ");
+		System.out.print("금익: ");
 		int profit = sc.nextInt();
 		
 		double tax01 = 0.09*profit;
