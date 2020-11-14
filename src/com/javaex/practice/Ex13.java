@@ -11,7 +11,7 @@ public class Ex13 {
 		System.out.print("숫자: ");
 		
 		int x = sc.nextInt();
-		int x_00 =(x*x*x)-(9*x)+2;
+		int x_00 =(x*x*x)-(9*x)+2; //x 세제곱을 써도 됨 세제곱 , Math.pow(3)=3의 제곱 , Math.pow(2. 53) 2의 53승?
 		int x_01 =(7*x+2);
 		
 		

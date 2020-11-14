@@ -13,7 +13,7 @@ public class Ex14 {
 		System.out.print("금익: ");
 		int profit = sc.nextInt();
 		
-		double tax01 = 0.09*profit;
+		double tax01 = 0.09*profit; // 개별 연산을 따로 하거나 if 식 안에 계산식을 넣어줄 수 있음
 		double tax02 = 1000*0.09+0.18*(profit-1000);
 		double tax03 = 1000*0.09+3000*0.18+0.27*(profit-4000);
 		double tax04 = 1000*0.09+3000*0.18+4000*0.27+0.36*(profit-8000);
